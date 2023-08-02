@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view_logo_list_bible_verse"
+        android:src="@drawable/ic_icon_bible_cebuano"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+
+    <TextView
+        android:id="@+id/text_view_title_list_bible_verse"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/image_view_logo_list_bible_verse"
+        android:text="Holy Bible Cebuano" />
+
+    <TextView
+        android:id="@+id/text_view_description_list_bible_verse"
+        android:layout_toRightOf="@+id/image_view_logo_list_bible_verse"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/text_view_title_list_bible_verse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="50"
+        android:singleLine="true"
+
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="Cebuano Version" />
+
+    <ImageView
+        android:id="@+id/image_view_right_arrow_list_bible_verse"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_list_view_right_arrow" />
+
+
+</RelativeLayout>

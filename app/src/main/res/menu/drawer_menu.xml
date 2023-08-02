@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/left_menu_home" />
+        <item
+            android:id="@+id/nav_daily_devotional_prayer"
+            android:icon="@drawable/ic_menu_devotional_prayer"
+            android:title="@string/left_menu_daily_devotional_prayer" />
+        <item
+            android:id="@+id/nav_bible_verse"
+            android:icon="@drawable/ic_menu_bible_verse"
+            android:title="@string/left_menu_bible_verse" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_menu_library_music"
+            android:title="@string/left_menu_music" />
+        <item
+            android:id="@+id/nav_trainings"
+            android:icon="@drawable/ic_menu_training"
+            android:title="@string/left_menu_trainings" />
+    </group>
+
+    <item android:title="@string/left_menu_line_bar_description">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="@string/left_menu_settings" />
+        </menu>
+    </item>
+
+</menu>

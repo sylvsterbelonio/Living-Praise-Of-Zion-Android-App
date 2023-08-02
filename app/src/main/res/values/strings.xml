@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Living Praise of Zion</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="app_title">Living Praise of Zion</string>
+    <string name="app_description">sylvster129@gmail.com</string>
+    <string name="pic_logo">Living Praise of Zion Photo</string>
+
+
+    <string name="left_menu_line_bar_description">Others</string>
+    <string name="left_menu_home">Home</string>
+    <string name="left_menu_daily_devotional_prayer">Daily Devotional Prayer</string>
+    <string name="left_menu_bible_verse">Bible Verse</string>
+    <string name="left_menu_music">Music</string>
+    <string name="left_menu_trainings">Spiritual Learning</string>
+    <string name="left_menu_settings">Settings</string>
+
+
+</resources>
